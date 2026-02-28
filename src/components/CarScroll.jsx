@@ -99,7 +99,7 @@ export default function CarScroll() {
 
         <img
           ref={carRef}
-          src="/mcLaren.png"
+          src="/public/mcLaren.png"
           alt="car"
           className="absolute top-1/2 -translate-y-1/2 z-20"
           style={{ width: '28%', height: '194px' }}
