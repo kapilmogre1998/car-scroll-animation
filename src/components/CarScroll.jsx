@@ -99,7 +99,7 @@ export default function CarScroll() {
 
         <img
           ref={carRef}
-          src="/public/mcLaren.png"
+          src="https://paraschaturvedi.github.io/car-scroll-animation/McLaren%20720S%202022%20top%20view.png"
           alt="car"
           className="absolute top-1/2 -translate-y-1/2 z-20"
           style={{ width: '28%', height: '194px' }}
