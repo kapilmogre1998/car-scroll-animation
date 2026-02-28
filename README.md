@@ -33,19 +33,6 @@ The car moves horizontally as the user scrolls, revealing animated typography an
 
 ---
 
-## 📁 Project Structure
-
-
-src/
-├── components/
-│ └── CarScroll.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
----
-
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
