@@ -1,16 +1,100 @@
-# React + Vite
+# Car Scroll Animation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-driven interactive animation built with React, GSAP, and Tailwind CSS.
+The car moves horizontally as the user scrolls, revealing animated typography and statistic cards synced to scroll progress.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+https://kapilmogre1998.github.io/car-scroll-animation/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack
 
-## React Compiler
+React 19
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite
 
-## Expanding the ESLint configuration
+GSAP (ScrollTrigger)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS
+
+ESLint
+
+✨ Features
+
+Scroll-synced horizontal car animation
+
+GSAP ScrollTrigger with pinned section
+
+Progressive letter reveal effect
+
+Animated statistic cards
+
+Responsive layout
+
+Clean component architecture
+
+Proper animation cleanup (no memory leaks)
+
+📁 Project Structure
+src/
+ ├── components/
+ │    └── CarScroll.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR-USERNAME/car-scroll-animation.git
+cd car-scroll-animation
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
+npm run dev
+📦 Build for Production
+npm run build
+🚀 Deployment (GitHub Pages)
+npm run deploy
+
+Make sure vite.config.js includes:
+
+base: "/car-scroll-animation/"
+🧠 Implementation Notes
+
+The animation is controlled via a single GSAP timeline.
+
+ScrollTrigger pins the section and synchronizes all elements.
+
+Cards are distributed proportionally across timeline progress.
+
+Proper cleanup is handled using tl.kill() and scrollTrigger.kill().
+
+📱 Responsive Design
+
+Tested on:
+
+Desktop
+
+Tablet
+
+Mobile
+
+🧹 Code Quality
+
+No unused variables
+
+ESLint configured
+
+Structured component layout
+
+Clear naming conventions
+
+Minimal inline styling
+
+📄 License
+
+This project is for educational / assignment submission purposes.
